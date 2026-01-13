@@ -1,4 +1,6 @@
 // app/api/auth/[...nextauth]/route.ts
+export const runtime = "nodejs";
+
 import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcryptjs";
 import NextAuth, { NextAuthOptions } from "next-auth";
